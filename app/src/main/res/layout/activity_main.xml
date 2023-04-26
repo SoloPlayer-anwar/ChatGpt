@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/rvMessageValue"
         app:layout_constraintEnd_toEndOf="@+id/rvMessageValue"
         app:layout_constraintStart_toStartOf="parent"

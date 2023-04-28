@@ -62,14 +62,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/llVisibility"
+        android:id="@+id/LinearLayoutVis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/rvMessageValue"
-        app:layout_constraintEnd_toEndOf="@+id/rvMessageValue"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/TextInputLayoutMessage"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

@@ -124,7 +124,9 @@ class BaseApp: MultiDexApplication() {
 }
 
 #HttpClient
+
 class HttpClient {
+
     private var client: Retrofit? = null
     private var endpoint: Endpoint? = null
 
@@ -202,7 +204,9 @@ class HttpClient {
 }
 
 #Cons
+
 object Cons {
+
     const val PREFERENCES_TOKEN = "preferences_token"
     const val PREFERENCES_USER = "preferences_user"
     const val DATE_FORMAT_SERVER = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
@@ -210,6 +214,7 @@ object Cons {
 
 #Helpers
 object Helpers {
+
     fun getDefaultGson(): Gson {
         return GsonBuilder()
             .excludeFieldsWithoutExposeAnnotation()

@@ -1,4 +1,5 @@
 Version Library
+
 livedata = "2.8.1"
 viewModel = "2.8.1"
 navigationFragment = "2.7.7"
